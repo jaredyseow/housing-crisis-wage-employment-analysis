@@ -25,7 +25,7 @@ Using publicly available data from the **U.S. Bureau of Labor Statistics (BLS) Q
 
 ## Files
 
-- `employment_wages_analysis.sql`: Full SQL query used to aggregate and label the dataset  
+- `employment_wages_analysis.sql`: Full SQL query used to aggregate and label the dataset [View SQL query](./employment_wages_analysis.sql)
 - `dashboard.png`: Tableau visualization comparing industry trends over time *(to be added)*  
 - `README.md`: Project overview and methodology  
 
