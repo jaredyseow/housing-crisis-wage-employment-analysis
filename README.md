@@ -28,12 +28,13 @@ Using publicly available data from the **U.S. Bureau of Labor Statistics (BLS) Q
 ## Files
 
 - `employment_wages_analysis.sql`: Full SQL query used to aggregate and label the dataset ([View SQL query](./employment_wages_analysis.sql))  
-- `dashboard.png`: Tableau visualization comparing industry trends over time ![Dashboard Preview](dashboard.png)  
+- `dashboard.png`: Tableau visualization comparing industry trends over time
 - `README.md`: Project overview and methodology  
 
 ## Dashboard Preview
 
-*Visual showing percent change in employment and wages by industry from 2004 to 2012 (insert image if available).*
+*This static image provides a summary of the dashboard layout. Interactive filters (e.g., by crisis period) are available in the Tableau Public version.*  
+![Dashboard Preview](dashboard.png)
 
 ## Insights
 
