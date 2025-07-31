@@ -1,6 +1,8 @@
 # housing-crisis-wage-employment-analysis
-Analysis of employment and average weekly wages in Construction, Finance, and Real Estate industries during the 2009 housing crisis using BLS QCEW data (2004–2012). Includes SQL query, Tableau dashboard, and key insights on industry trends before, during, and after the recession.
-# Industry Impact of the 2008 Financial Crisis: Employment and Wages (2004–2012)
+
+Analysis of employment and average weekly wages in Construction, Finance, and Real Estate industries during the 2008 financial crisis using BLS QCEW data (2004–2012). Includes SQL query, Tableau dashboard, and key insights on industry trends before, during, and after the recession.
+
+## Industry Impact of the 2008 Financial Crisis: Employment and Wages (2004–2012)
 
 This project analyzes the impact of the 2008 housing and financial crisis on employment and wages across three major industries: **Construction**, **Finance**, and **Real Estate**.
 
@@ -25,14 +27,9 @@ Using publicly available data from the **U.S. Bureau of Labor Statistics (BLS) Q
 
 ## Files
 
-- `employment_wages_analysis.sql`: Full SQL query used to aggregate and label the dataset *[View SQL query](./employment_wages_analysis.sql)*
-- `dashboard.png`: Tableau visualization comparing industry trends over time *![Dashboard Preview](dashboard.png)*  
+- `employment_wages_analysis.sql`: Full SQL query used to aggregate and label the dataset ([View SQL query](./employment_wages_analysis.sql))  
+- `dashboard.png`: Tableau visualization comparing industry trends over time ![Dashboard Preview](dashboard.png)  
 - `README.md`: Project overview and methodology  
-
-## Data Source
-
-- **BLS Quarterly Census of Employment and Wages (QCEW)**: https://www.bls.gov/cew/  
-- Accessed via **Google BigQuery Public Datasets**: https://console.cloud.google.com/marketplace/product/bigquery-public-data/bls  
 
 ## Dashboard Preview
 
@@ -42,4 +39,32 @@ Using publicly available data from the **U.S. Bureau of Labor Statistics (BLS) Q
 
 - **Construction** experienced the steepest employment decline during the crisis period  
 - **Finance** showed more stability in wages but modest job losses  
-- **Real Estate** faced prolonged employment drops with slower wage recovery 
+- **Real Estate** faced prolonged employment drops with slower wage recovery  
+
+## Data Source
+
+This project uses publicly available data from the **U.S. Bureau of Labor Statistics (BLS) Quarterly Census of Employment and Wages (QCEW)**.
+
+The data was accessed using the **Google BigQuery public dataset**:  
+[https://console.cloud.google.com/marketplace/product/bigquery-public-data/bls](https://console.cloud.google.com/marketplace/product/bigquery-public-data/bls)
+
+### BigQuery Tables Used
+
+The following quarterly tables were used to compute yearly averages:
+
+- `bigquery-public-data.bls_qcew.2004_q1` through `2004_q4`  
+- `bigquery-public-data.bls_qcew.2005_q1` through `2005_q4`  
+- `bigquery-public-data.bls_qcew.2006_q1` through `2006_q4`  
+- `bigquery-public-data.bls_qcew.2007_q1` through `2007_q4`  
+- `bigquery-public-data.bls_qcew.2008_q1` through `2008_q4`  
+- `bigquery-public-data.bls_qcew.2009_q1` through `2009_q4`  
+- `bigquery-public-data.bls_qcew.2010_q1` through `2010_q4`  
+- `bigquery-public-data.bls_qcew.2011_q1` through `2011_q4`  
+- `bigquery-public-data.bls_qcew.2012_q1` through `2012_q4`  
+
+### Industries Analyzed
+
+- **Construction** (NAICS 23)  
+- **Financial Activities** (NAICS 1023)  
+- **Real Estate and Rental and Leasing** (NAICS 53)  
+
