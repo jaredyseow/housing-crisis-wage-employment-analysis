@@ -49,7 +49,7 @@ Using publicly available data from the **U.S. Bureau of Labor Statistics (BLS) Q
 The main Tableau dashboard tracks changes in employment and wages by industry over time and highlights four distinct economic periods: **Pre-Crisis**, **Decline**, **Crisis**, and **Recovery**.
 
 If you're using Tableau Desktop or Tableau Public, you can open the interactive dashboard here:  
-👉 [Click to view interactive dashboard](./interactive_dashboard.twbx)
+[Click to view interactive dashboard](./interactive_dashboard.twbx)
 
 The dashboard includes:
 - Color-coded lines by economic period  
@@ -57,7 +57,7 @@ The dashboard includes:
 - Side-by-side visualizations for Construction, Finance, and Real Estate  
 
 You can also view the static image:  
-🖼️ [Click to view static dashboard image](./dashboard.png)
+[Click to view static dashboard image](./dashboard.png)
 
 ---
 
