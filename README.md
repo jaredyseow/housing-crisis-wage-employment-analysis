@@ -29,12 +29,20 @@ Using publicly available data from the **U.S. Bureau of Labor Statistics (BLS) Q
 
 - `employment_wages_analysis.sql`: Full SQL query used to aggregate and label the dataset ([View SQL query](./employment_wages_analysis.sql))  
 - `dashboard.png`: Tableau visualization comparing industry trends over time
+- `interactive_dashboard.twbx`: Tableau packaged workbook containing the full interactive dashboard with filters, tooltips, and color-coded economic periods
 - `README.md`: Project overview and methodology  
 
 ## Dashboard Preview
 
-*This static image provides a summary of the dashboard layout. Interactive filters (e.g., by crisis period) are available in the Tableau Public version.*  
-![Dashboard Preview](dashboard.png)
+The main Tableau dashboard tracks changes in employment and wages by industry over time and highlights four distinct economic periods: **Pre-Crisis**, **Decline**, **Crisis**, and **Recovery**.
+
+If you're using Tableau Desktop or Tableau Public, open `interactive_dashboard.twbx` to explore the interactive version. The dashboard includes:
+
+- **Color-coded lines** by economic period
+- **Hover tooltips** showing percent changes by year and industry
+- **Side-by-side visualizations** for Construction, Finance, and Real Estate
+
+A static preview image (`dashboard.png`) is also included for reference.
 
 ## Insights
 
