@@ -42,7 +42,7 @@ If you're using Tableau Desktop or Tableau Public, open `interactive_dashboard.t
 - **Hover tooltips** showing percent changes by year and industry
 - **Side-by-side visualizations** for Construction, Finance, and Real Estate
 
-A static preview image (`dashboard.png`) is also included for reference.
+A static preview image (`dashboard.png`) is also included for reference. [Click to view static dashboard image](dashboard.png)
 
 ## Insights
 
