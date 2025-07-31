@@ -41,6 +41,7 @@ If you're using Tableau Desktop or Tableau Public, open `interactive_dashboard.t
 - **Color-coded lines** by economic period
 - **Hover tooltips** showing percent changes by year and industry
 - **Side-by-side visualizations** for Construction, Finance, and Real Estate
+[Click to view interactive dashboard](./interactive_dashboard.twbx)
 
 A static preview image (`dashboard.png`) is also included for reference. [Click to view static dashboard image](dashboard.png)
 
