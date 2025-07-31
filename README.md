@@ -63,9 +63,9 @@ You can also view the static image:
 
 ## Insights
 
-- **Construction** experienced the steepest employment decline during the crisis period  
-- **Finance** showed more stability in wages but modest job losses  
-- **Real Estate** faced prolonged employment drops with slower wage recovery  
+- **Construction** experienced the steepest employment decline during the crisis, dropping by over 500,000 jobs between 2006 and 2009. While wages steadily increased, employment only partially recovered by 2012.
+- **Finance** showed resilience with consistent wage growth and only modest employment declines. The industry recovered to near pre-crisis employment levels by 2012.
+- **Real Estate** also saw declining employment during the crisis, but its recovery was slower and flatter than the other sectors. Wages increased, but job growth remained subdued through 2012.
 
 ---
 
